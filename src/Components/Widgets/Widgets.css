@@ -1,0 +1,52 @@
+.widgets{
+    flex:0.2;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 80px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    border: 1px solid lightgray;
+    gap: 30px;
+}
+
+.widgets__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.widgets__header > h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.widgets__article{
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.widgets__article>img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.follow__company{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.follow__btn{
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    border: 1px solid gray;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+}

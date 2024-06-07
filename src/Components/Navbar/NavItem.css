@@ -1,0 +1,18 @@
+.navItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navItem img{
+    opacity: .6;
+}
+.navItem:last-child img{
+    width: 30px;
+    opacity: 1;
+    border-radius: 50%;
+}
+.navItem :hover{
+    opacity: 1;
+    cursor: pointer;
+}

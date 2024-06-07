@@ -1,0 +1,15 @@
+.app{
+    background-color: #F4F2EE;
+    min-height: 100vh;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1250px;
+    gap: 30px;
+}

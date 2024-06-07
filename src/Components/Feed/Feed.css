@@ -1,0 +1,68 @@
+.feed{
+    flex: 0.6;
+}
+
+.publish{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.input__container{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.input__container form{
+    width: 100%;
+}
+.input__container button{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.input__container input{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    color: rgb(98, 97, 97);
+    font-weight: bolder;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+form{
+    display: flex;
+    gap: 20px;
+}
+
+.action img{
+    width: 30px;
+}
+
+.action:hover{
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+

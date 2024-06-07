@@ -1,0 +1,78 @@
+.sidebar{
+    flex:0.2;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    position: sticky;
+    top: 80px;
+    height: fit-content;
+}
+
+.sidebar__top{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.profile__images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover__img{
+    width: 100%;
+    height: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+.profile__img{
+    width: 70px;
+    border-radius: 50%;
+    margin: -30px;
+}
+.profile__name{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.profile__info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+
+}
+.profile__views{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__impressions{
+    display: flex;
+    justify-content: space-between;
+}
+.siderbar__bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.recentItem{
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #171717;
+}
