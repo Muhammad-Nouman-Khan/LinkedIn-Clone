@@ -54,7 +54,7 @@ const Feed = () => {
     <div className="feed">
       <div className="publish">
         <div className="input__container">
-          <Avatar src="" />
+          <Avatar className="publish__avatar" src="" />
           <form>
             <input
               value={input}
@@ -70,26 +70,27 @@ const Feed = () => {
 
         <div className="actions">
           <div className="action">
-            <ImageIcon style={{ color: "green" }} />
+            <ImageIcon className="icon" style={{ color: "green" }} />
             <p>Media</p>
           </div>
           <div className="action">
-            <EventNoteIcon style={{ color: "orange" }} />
+            <EventNoteIcon className="icon" style={{ color: "orange" }} />
             <p>Event</p>
           </div>
           <div className="action">
-            <CalendarViewDayIcon style={{ color: "red" }} />
+            <CalendarViewDayIcon className="icon" style={{ color: "red" }} />
             <p>Write article</p>
           </div>
         </div>
       </div>
       <FlipMove>
-        {posts.map(({ id, data: { name, description, message } }) => (
+        {posts.map(({ id, data: { name, description, message, photoUrl } }) => (
           <Post
             key={id}
             name={name}
             description={description}
             message={message}
+            photoUrl={photoUrl}
           />
         ))}
       </FlipMove>

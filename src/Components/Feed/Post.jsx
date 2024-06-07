@@ -10,7 +10,9 @@ const Post = forwardRef(({ name, description, message, photoUrl }, ref) => {
   return (
     <div ref={ref} className="post">
       <div className="post__header">
-        <Avatar src={photoUrl}>{name[0]}</Avatar>
+        <Avatar className="post__avatar" src={photoUrl}>
+          {name[0]}
+        </Avatar>
         <div className="post__info">
           <h2>{name}</h2>
           <p>{description}</p>
@@ -21,19 +23,19 @@ const Post = forwardRef(({ name, description, message, photoUrl }, ref) => {
       </div>
       <div className="actions">
         <div className="action">
-          <img src={like} alt="" />
+          <img className="icon" src={like} alt="" />
           <p>Like</p>
         </div>
         <div className="action">
-          <img src={comment} alt="" />
+          <img className="icon" src={comment} alt="" />
           <p>Comment</p>
         </div>
         <div className="action">
-          <img src={repost} alt="" />
+          <img className="icon" src={repost} alt="" />
           <p>Repost</p>
         </div>
         <div className="action">
-          <img src={send} alt="" />
+          <img className="icon" src={send} alt="" />
           <p>Send</p>
         </div>
       </div>

@@ -4,3 +4,154 @@
     box-sizing: border-box;
     font-family: roboto;
 }
+
+@media (max-width:1200px) {
+    .container{
+        width: 1000px;
+    }
+    .navbar{
+        width: 1000px;
+    }
+    .navItem p{
+        display: none;
+    }
+    .profilee p{
+        display: none;
+    }
+}
+
+@media (max-width:1000px){
+    .widgets{
+        display: none;
+    }
+    .feed{
+        flex:0.7;
+    }
+    .sidebar{
+        flex:0.3;
+    }
+}
+
+@media (max-width:800px){
+    .navbar img{
+        width: 3vw;
+    }
+    .navProfile{
+        width: 3vw !important;
+        height: 3vw !important;
+        font-size: 2vw !important;
+    }
+    
+    .sidebar{
+        position: relative;
+        top: 0;
+    }
+    .sidebar__bottom{
+        display: none;
+    }
+    .container{
+        flex-direction: column;
+        padding: 0 3vw;
+    }
+
+    .search input{
+        width: 40vw;
+        font-size: 2vw;
+    }
+    .cover__img{
+        height: 20vw;
+    }
+    .profile__img{
+        height: 10vw !important;
+        width: 10vw !important;
+    }
+    .profile__name p{
+        font-size: 4vw !important;
+    }
+
+    .profile__info p{
+        font-size: 3vw;
+    }
+    .saved__items{
+        font-size: 3vw;
+    }
+
+    .publish__avatar{
+        width: 6vw !important;
+        height: 6vw !important;
+    }
+    .input__container > form > button{
+        font-size: 2vw;
+        padding: 2vw;
+    }
+    .input__container > form > input{
+        font-size: 2vw;
+    }
+    .action p{
+        font-size: 2.5vw;
+    }
+    .icon{
+        width: 3vw !important;
+    }
+
+    .post__avatar{
+        height: 7vw !important;
+        width: 7vw !important;
+        font-size: 3vw !important;
+    }
+    .post__info h2{
+        font-size: 3vw;
+    }
+    .post__info p{
+        font-size: 2.5vw;
+    }
+    .post__body p{
+        font-size: 2.5vw;
+    }
+    .sidebar__top{
+        width: 100%;
+    }
+}
+
+@media (max-width:670px) {
+    
+    .nav__right{
+        gap: 3vw;
+    }
+    .nav__left{
+        gap: 3vw;
+    }
+    .search{
+        gap: 3vw;
+    }
+    .input__container{
+        gap: 3vw;
+    }
+    .action{
+        gap: 3vw;
+    }
+    form{
+        gap: 3vw;
+    }
+    .search input{
+        width: 30vw;
+        font-size: 2vw;
+    }
+
+}
+
+@media (max-width:450px) {
+    .login > form > input{
+        width: 90vw;
+        font-size: 4vw;
+    }
+    .login>img{
+        width: 90vw;
+    }
+    .login > form > button {
+        width: 90vw;
+    }
+    .login p,span {
+        font-size: 3vw;
+    }
+}

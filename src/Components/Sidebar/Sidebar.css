@@ -61,7 +61,7 @@
     display: flex;
     justify-content: space-between;
 }
-.siderbar__bottom{
+.sidebar__bottom{
     display: flex;
     flex-direction: column;
     gap: 20px;

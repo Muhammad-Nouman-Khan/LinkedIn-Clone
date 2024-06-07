@@ -44,9 +44,14 @@ const Sidebar = () => {
             <p style={{ color: "#2879C9", fontWeight: "bolder" }}>575</p>
           </div>
         </div>
-        <p style={{ marginLeft: "10px", marginTop: "10px" }}>Saved items</p>
+        <p
+          className="saved__items"
+          style={{ marginLeft: "10px", marginTop: "10px" }}
+        >
+          Saved items
+        </p>
       </div>
-      <div className="siderbar__bottom">
+      <div className="sidebar__bottom">
         <p>Recent</p>
         {recentItem("JavaScript")}
         {recentItem(".NET Developers")}
